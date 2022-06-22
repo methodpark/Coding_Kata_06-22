@@ -1,0 +1,14 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/dotnet",
+    "remoteUser": "vscode",
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "Ionide.Ionide-fsharp"
+    ],
+    "remoteEnv": {
+        "DOTNET_CLI_TELEMETRY_OPTOUT": "true"
+    },
+    "settings": {
+        "omnisharp.useModernNet": true
+    }
+}
